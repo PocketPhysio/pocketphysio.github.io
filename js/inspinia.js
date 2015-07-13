@@ -62,10 +62,10 @@ $(document).ready(function () {
     });
 
     // Initialize slimscroll for small chat
-    $('.small-chat-box .content').slimScroll({
+    /*$('.small-chat-box .content').slimScroll({
         height: '234px',
         railOpacity: 0.4
-    });
+    });*/
 
     // Small todo handler
     $('.check-link').click( function(){
@@ -120,14 +120,14 @@ $(document).ready(function () {
     fix_height();
 
     // Fixed Sidebar
-    $(window).bind("load", function () {
+    /*$(window).bind("load", function () {
         if ($("body").hasClass('fixed-sidebar')) {
             $('.sidebar-collapse').slimScroll({
                 height: '100%',
                 railOpacity: 0.9
             });
         }
-    })
+    })*/
 
     // Move right sidebar top after scroll
     $(window).scroll(function(){
@@ -175,7 +175,7 @@ $(document).ready(function() {
         var fixedfooter = localStorage.getItem("fixedfooter");
 
         var body = $('body');
-
+/*
         if (fixedsidebar == 'on') {
             body.addClass('fixed-sidebar');
             $('.sidebar-collapse').slimScroll({
@@ -183,7 +183,7 @@ $(document).ready(function() {
                 railOpacity: 0.9
             });
         }
-
+*/
         if (collapse == 'on') {
             if(body.hasClass('fixed-sidebar')) {
                 if(!body.hasClass('body-small')) {
