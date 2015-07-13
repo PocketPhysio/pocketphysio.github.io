@@ -146,10 +146,10 @@ h1 {
   width: 100%;
 }
 .header-back.one {
-  background: url('/images/slide1.jpg') 50% 0 no-repeat;
+  background: url('/img/slide1.jpg') 50% 0 no-repeat;
 }
 .header-back.two {
-  background: url('/images/header_two.jpg') 50% 0 no-repeat;
+  background: url('/img/header_two.jpg') 50% 0 no-repeat;
 }
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -357,7 +357,7 @@ li.pricing-title {
   padding-top: 40px;
   padding-bottom: 60px;
   background-color: #1ab394;
-  background-image: url('/images/avatar_all.png');
+  background-image: url('/img/avatar_all.png');
 }
 .big-icon {
   font-size: 56px;
@@ -366,7 +366,7 @@ li.pricing-title {
   color: #1ab394;
 }
 .contact {
-  background-image: url('/images/word_map.png');
+  background-image: url('/img/word_map.png');
   background-position: 50% 50%;
   background-repeat: no-repeat;
   margin-top: 60px;
